@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header with Full-Width Logo */
+.site-header {
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+.logo-wrapper {
+    width: 100%;
+    background-color: #000;
+}
+
+.header-logo {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #111;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff6600;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+}
+
+.button {
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Animation Section */
+.barber-animation {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Services Section */
+.services {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .socials a {
+    color: #ff6600;
+    margin: 0 5px;
+}
